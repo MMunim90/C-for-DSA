@@ -12,7 +12,7 @@ int main()
     std :: cout << x << " " << c << " " << d << "\n";
 
 
-    // my favourite number is 999
+    // my favourite number is 999 .
     std:: cout<< "My Favourite number is: " << x << std:: endl;
     return 0;
 }
