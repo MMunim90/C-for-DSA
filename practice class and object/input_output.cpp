@@ -14,8 +14,12 @@ public:
 
 int main()
 {
-    Output myID(54324);
-    // int b = 8;
+    // Output myID(54324);
+    int b;
+    cin >> b ;
+    Output myID(b);
+
+
 
     cout << myID.id << endl;
     return 0;
