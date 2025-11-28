@@ -8,11 +8,11 @@ int main()
     // 2
     // string s("Hello World", 4);
     // 3
-    // string s = "Hello World";
-    // string t(s, 4);
+    string s = "Hello World";
+    string t(s, 4);
 
     // 4
-    string s(5, 'M');
-    cout << s << endl;
+    // string s(5, 'M');
+    cout << t << endl;
     return 0;
 }
