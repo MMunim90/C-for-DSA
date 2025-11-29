@@ -4,7 +4,8 @@ int main()
 {
     string s;
     cin >> s;
-    s.replace(0, 8, " ");
+    string e = "EGYPT";
+    s.insert("EGYPT", " ");
     cout << s << endl;
 
     return 0;
