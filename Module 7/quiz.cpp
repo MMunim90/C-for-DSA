@@ -26,29 +26,29 @@
 
 
 // 2
-// #include<bits/stdc++.h>
-// using namespace std;
+#include<bits/stdc++.h>
+using namespace std;
 
-// class Student
-// {
-//     public:
-//     int roll;
-// };
+class Student
+{
+    public:
+    int roll;
+};
 
-// int main()
-// {
-//     Student a[5];
+int main()
+{
+    Student a[5];
 
-//     for(int i=0; i<5; i++)
-//     {
-//         cin >> a[i].roll;
-//     }
+    for(int i=0; i<5; i++)
+    {
+        cin >> a[i].roll;
+    }
 
-//     for(int i=0; i<5; i++)
-//     {
-//         cout << a[i].roll << " ";
-//     }
-//     return 0;
-// }
+    for(int i=0; i<5; i++)
+    {
+        cout << a[i].roll << " ";
+    }
+    return 0;
+}
 
 
