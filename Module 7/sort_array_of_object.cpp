@@ -11,20 +11,23 @@ class Student
 bool comp(Student l, Student r)
 {
     // 1
-    // if(l.marks < r.marks)
-    // {
-    //     return true;
-    // }
-    // else
-    // {
-    //     return false;
-    // }
+    if(l.marks > r.marks)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 
     // 2
     // return(l.marks < r.marks) ? true : false;
 
     // 3
-    return l.marks < r.marks;  // all are same. but this one is better
+    // return l.marks < r.marks; // ascending order  // all 3 are same. but this one is better
+    // return l.marks > r.marks; // descending order
+
+    // return l.roll < r.roll;
 
 }
 
