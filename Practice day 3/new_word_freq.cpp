@@ -5,7 +5,7 @@ int main()
     string str;
     cin >> str;
 
-    int freq[26] = {0};
+    int freq[26] = {0}; // every time must initialize zero in this frequency array.
     for(int i=0; i<str.size(); i++)
     {
         // detail
@@ -27,7 +27,7 @@ int main()
 
     }
 
-    cout << min({freq['e' - 'a'], freq['g' - 'a'], freq['y' - 'a'], freq['p' - 'a'], freq['t' - 'a'],});
+    cout << min({freq['e' - 'a'], freq['g' - 'a'], freq['y' - 'a'], freq['p' - 'a'], freq['t' - 'a']});
 
     return 0;
 }
